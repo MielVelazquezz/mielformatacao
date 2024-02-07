@@ -1,0 +1,133 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+main{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #102b66;
+
+}
+
+main .cx1, .cx2, .cx3{
+
+    width: 29%;
+    height: 350px;
+    background-color: #1A2744;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px #3595de;
+
+}
+
+main .cx1 h2, .cx2 h2, .cx3 h2{
+
+    color: #92C4FF;
+    position: relative;
+    bottom: 20%;
+
+}
+
+main .cx1 .cxnum1{
+
+    width: 85%;
+    border: 1px solid transparent;
+    color: #92C4FF;
+
+}
+
+.cxnum1 em, span{
+
+    color: #fefefe;
+
+}
+
+button{
+
+    width: 35%;
+    height: 25px;
+    font-size: 15px;
+    position: relative;
+    top: 13%;
+    background-color: #3595de;
+    border: none;
+    border-radius: 15px;
+    color: #fefefe;
+
+}
+
+button a[href="http://localhost/formatacao_numeros/number.php"]{
+
+    text-decoration: none;
+    color: #fefefe;
+
+}
+
+.cx2 form{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    width: 65%;
+    height: 60%;
+
+}
+
+.cx2 label{
+
+    margin: 6px 0;
+    color: #fefefe;
+    font-size: 15px;
+
+}
+
+.cx2 input[type='number']{
+
+    width: 90%;
+    height: 20px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px 0;
+
+}
+
+.cx2 input[type='submit']{
+
+    width: 65%;
+    height: 25px;
+    border-radius: 15px;
+    margin: 0 40px;
+    position: relative;
+    top: 18%;
+    background-color: #3595de;
+    border: none;
+    color: #fefefe;
+    font-size: 15px;
+
+}
+
+.css{
+
+    color: #3595de;
+
+}
+
+.error{
+
+    text-align: center;
+    color: #fefefe;
+
+}
